@@ -1,16 +1,10 @@
-Yep — the README should explicitly mention LightGBM as one of the models considered/used.
 
-A clean place to add it is under Machine Learning Approach and Future Improvements. If LightGBM was actually trained in the notebook, I'd phrase it as “Models evaluated” rather than merely a future improvement.
-
-For example:
-
-README — LightGBM Model Addition
-Mapping Service Delivery Needs in Gauteng
-Models Evaluated
+## Mapping Service Delivery Needs in Gauteng
+# Models Evaluated
 
 The project evaluates multiple machine-learning approaches for predicting household service-delivery gaps.
 
-The models include:
+## The models include:
 
 Random Forest with MultiOutputClassifier — used as the main baseline model.
 LightGBM (Light Gradient Boosting Machine) — evaluated as an additional gradient-boosting approach for the classification task.
@@ -44,17 +38,17 @@ Categorical Feature Encoding
                 ↓
         Final Predictions
 
-Random Forest
+# Random Forest
 
 The baseline implementation uses a RandomForestClassifier within a MultiOutputClassifier framework. This provides a separate classifier for each of the five service-gap targets.
 
-LightGBM
+# LightGBM
 
 LightGBM was also used as one of the project's machine-learning models. It is a gradient-boosting framework designed for efficient training and strong predictive performance, particularly on structured/tabular datasets.
 
 Including LightGBM provides a useful comparison against the Random Forest baseline and allows us to investigate whether gradient boosting can better capture relationships within the household-level data.
 
-Future Improvements
+# Future Improvements
 
 Potential improvements include:
 
