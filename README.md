@@ -1,6 +1,6 @@
 
-## Mapping Service Delivery Needs in Gauteng
-# Models Evaluated
+# Mapping Service Delivery Needs in Gauteng
+## Models Evaluated
 
 The project evaluates multiple machine-learning approaches for predicting household service-delivery gaps.
 
